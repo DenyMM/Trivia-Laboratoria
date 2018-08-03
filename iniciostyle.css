@@ -1,0 +1,25 @@
+html{
+  background-color: #03152C;
+
+}
+input{
+  background-color: #E2BD53;
+  border: 4px groove #95691C;
+  padding: 2em;
+  font-family: 'Irish Grover';font-size: 30px ;
+}
+h1{
+    background-color: #E2BD53;
+      padding: 2em;
+}
+
+h2{
+  font-family: 'Irish Grover';font-size: 30px ;
+}
+div{
+  background-color: #E2BD53;
+  border: 4px groove #95691C;
+  padding: 2em;
+  font-family: 'Irish Grover';font-size: 30px ;
+  display: block;
+}

@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+<head>
+   <center><h2><div id="named">Que personaje de South Park eres</div></h2></center>
+   <meta charset="utf-8">
+   <title>Trivia de South Park</title>
+   <div >
+ <h1 id=showwindow><form>Ingresa tu nombre:<br>
+    <input id="user" type="text"  name="Ingresa tu nombre"><br>
+    <input type="button" value="aceptar" onclick="showname()">
+ </form>
+ </h1>
+ </div>
+ <center>
+ <h3>¿Si fueras una personaje de juego de que tipo serias?:
+ <div id="aa">
+    <input type="button" value="Mago"
+    onclick="answerOnea()">
+    <input type="button" value="Elfo"
+    onclick="answerOneb()">
+    <input type="button" value="Guerrero"
+    onclick="answerOnec()">
+ </div>
+ <p id="oneanswer"> Todos son muy buenos
+ </p>
+ </h3>
+ </center>
+ <center>
+ <h4>¿Cual de estas armas va mejor contigo?:
+ <div id=bb>
+    <input type="button" value="Una espada hecha por elfos"
+    onclick="answerTwoa()">
+    <input type="button" value="Un baston de roble con poderes magicos"
+    onclick="answerTwob()">
+    <input type="button" value="El poder de curar"
+    onclick="answerTwoc()">
+ </div>
+ <p id= "twoanswer" >Piensa bien, a veces hay que moverse mucho.
+ </p>
+ </h4>
+ </center>
+ <center>
+ <h5>¿Tienes que escoger un poder especial, cual seria?:
+ <div id=cc>
+    <input type="button" value="Tener una super bestia"
+    onclick="answerThreea()">
+    <input type="button" value="Patear a tu hermano"
+    onclick="answerThreeb()">
+    <input type="button" value="Magia de gases"
+    onclick="answerThreec()">
+ </div>
+ <p id="threeanswer"> Todos tenemos diferentes habilidades
+ </p>
+ </h5>
+ </center>
+ <center>
+ <h6>A que bando pertenecerias en caso de una guerra
+ <div id="dd">
+    <input type="button" value="A los elfos judios"
+    onclick="answerFoura()">
+    <input type="button" value="Que? nunca defraudaria al gran mago"
+    onclick="answerFourb()">
+    <input type="button" value="Los niños vampiro"
+    onclick="answerFourc()">
+ </div>
+ <p id="fouranswer"> Piensalo bien
+ </p>
+ </h6>
+ </center>
+    <script type= "text/javascript" src="app.js"> </script>
+    <link rel="stylesheet" href="style.css">
+    <link href='https://fonts.googleapis.com/css?family=Uncial Antiqua' rel='stylesheet'>
+</head>
+<body>
+  <header>
+    <p>
+  </p>
+</header>
+<center><input type= "button"
+value= "Ver que personaje eres"
+onclick="verrespu()" /></center>
+<center><h7 id="imacharac"></h7>
+</center>
+</body>
+</html>

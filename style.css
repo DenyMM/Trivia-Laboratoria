@@ -1,0 +1,126 @@
+html{
+  background-color: #CC983E;
+  background-image: url("http://wallpapers.org.es/wp-content/uploads/2013/03/textura-en-papel-tapiz.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+ h1{
+  color:black;
+  border: 8px ridge #95691C;
+  background-color: #E2BD53;
+  padding: 2em;
+  margin:5em;
+  background-position: top;
+
+ }
+ h2{
+    color:black;
+    border: 8px ridge #95691C;
+    background-color: #E2BD53;
+    padding: 2em;
+    margin:5em;
+    background-position: top;
+ }
+ p{
+    color: black;
+    border: 8px ridge #95691C;
+    background-color: #E2BD53;
+    padding: 1em;
+    margin:3em;
+    font-family: 'Uncial Antiqua';font-size: 17px ;
+    display: inline-flex;
+ }
+
+  header p{
+   border: 5px;
+   border-color: inherit;
+   padding: 12em;
+   background-color: inherit;
+   background-image: url("https://media.giphy.com/media/135XscBUtqOV8Y/200.gif");
+   background-repeat: no-repeat;
+   background-size: 500px 400px;
+   background-position: center;
+   display: block;
+  }
+  input{
+   background-color: #E2BD53;
+   border: 4px groove #95691C;
+   font-family: 'Uncial Antiqua';font-size: 19px ;
+  }
+  input:hover {
+background: #E2BD53;
+color: #95691C;
+box-shadow: inset 0 0 0 3px #95691C;
+}
+
+/*
+  div p{
+    padding: 20em;
+    margin: inherit;
+    border: none;
+    background-image: url("http://www.medieval-swords.com/images/parchment-bgd.png");
+    background-repeat: no-repeat;
+    background-size: auto;
+    background-position: center;
+    background-color: inherit;
+      display: block;
+  }
+  */
+  h3{
+    color:black;
+    border: 8px ridge #95691C;
+    background-color: #E2BD53;
+    padding: 1em;
+    margin:5em;
+    background-position: top;
+  }
+  h4{
+    color:black;
+    border: 8px ridge #95691C;
+    background-color: #E2BD53;
+    padding: 1em;
+    margin:5em;
+    background-position: top;
+  }
+  h5{
+    color:black;
+    border: 8px ridge #95691C;
+    background-color: #E2BD53;
+    padding: 1em;
+    margin:5em;
+    background-position: top;
+  }
+  h6{
+    color:black;
+    border: 8px ridge #95691C;
+    background-color: #E2BD53;
+    padding: 1em;
+    margin:5em;
+    background-position: top;
+  }
+  div #aa {
+    color: black
+    border: 8px ridge #95691C;
+    background-color: #E2BD53;
+    padding: 2em;
+    margin:5em;
+   display: inline;
+  }
+/*  p #oneanswer{
+    display: flex;
+  }
+  p #twoanswer{
+    display: flex;
+  }
+  p #threeanswer{
+    display: flex;
+  }
+  p #fouranswer{
+    display: flex;
+  }*/
+body {
+  background-image: url("http://irgamers.cl/index/wp-content/uploads/2014/03/Cartman.png");
+  background-size: 170px 170px;
+  background-repeat: repeat-x;
+  font-family: 'Uncial Antiqua';font-size: 22px;
+  }
